@@ -16,8 +16,6 @@ router.get('/', async (req, res, next) => {
   } catch (error) {
     errorResponse(req, res, error.message);
   }
-
-  // service.createDummyFriends();
 });
 
 // get user by id
@@ -30,8 +28,6 @@ router.get('/:id', async (req, res, next) => {
   } catch (error) {
     errorResponse(req, res, error.message);
   }
-
-  // service.createDummyUsers();
 });
 
 // get user friends
@@ -46,8 +42,6 @@ router.get('/:id/friends', async (req, res, next) => {
   } catch (error) {
     errorResponse(req, res, error.message);
   }
-
-  // service.createDummyUsers();
 });
 
 module.exports = router;

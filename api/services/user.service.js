@@ -45,7 +45,7 @@ const createDummyUsers = async () => {
   try {
     const userList = [
       { firstName: 'Jitesh', lastName: 'Ahuja', avatar: null },
-      { firstName: 'Gaurav', lastName: 'Kalekar', avatar: 'https://scontent.fpnq7-2.fna.fbcdn.net/v/t1.0-9/101832701_3030061320416164_189298132360626176_o.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=MRxk7_XT6ZoAX8SKSJ9&_nc_ht=scontent.fpnq7-2.fna&oh=96cb76f15b0dc01b98e359781d9a747c&oe=5FC453BD' },
+      { firstName: 'Gaurav', lastName: 'Kalekar', avatar: null },
       { firstName: 'Digvijay', lastName: 'Zite', avatar: null },
     ];
 
