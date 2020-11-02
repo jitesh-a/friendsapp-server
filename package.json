@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "debug": "node --nolazy ./bin/www",
+    "start": "node ./bin/www",
     "lint": "./node_modules/.bin/eslint --ext .js api/ --report-unused-disable-directives --color",
     "lint-fix": "./node_modules/.bin/eslint --ext .js api/ --report-unused-disable-directives --color --fix"
   },
