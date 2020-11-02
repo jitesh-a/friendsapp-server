@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "lint": "./node_modules/.bin/eslint --ext .js api/ --report-unused-disable-directives --color",
-    "lint-fix": "./node_modules/.bin/eslint --ext .js api/ --report-unused-disable-directives --color --fix"
+    "lint-fix": "./node_modules/.bin/eslint --ext .js api/ --report-unused-disable-directives --color --fix",
+    "test": "jest"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
